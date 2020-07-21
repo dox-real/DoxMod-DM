@@ -1,0 +1,45 @@
+<configs>
+<append xpath="/entity_classes">
+<entity_class name="Mekkatorque">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="79"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="100"/>
+	<property name="Explosion.EntityDamage" value="100"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="ui_game_symbol_4x4"/>
+	<property name="NavObject" value="4x4" />
+</entity_class>
+<entity_class name="DM: Improved Gyrocopter">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityVGyroCopter"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#Entities/Vehicles?gyrocopter_Prefab.prefab"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="80"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="3"/>
+	<property name="Explosion.RadiusEntities" value="3"/>
+	<property name="Explosion.BlockDamage" value="30"/>
+	<property name="Explosion.EntityDamage" value="30"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="ui_game_symbol_gyrocopter"/>
+	<property name="NavObject" value="gyrocopter" />
+</entity_class>	
+
+</append>
+</configs>
