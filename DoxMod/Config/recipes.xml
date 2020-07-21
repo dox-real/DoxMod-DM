@@ -102,6 +102,18 @@
 			
 		</recipe>
 		
+		<recipe name="DM: Picture Frame Prop" count="1" craft_time="5">
+			
+			<ingredient name="resourceWood" count="5"/>
+			<ingredient name="resourceBrokenGlass" count="2"/>
+			<ingredient name="resourceGlue" count="1"/>
+			
+			
+			
+		</recipe>
+		
+		
+		
 	
 
 
