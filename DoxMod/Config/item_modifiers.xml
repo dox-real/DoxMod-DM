@@ -1,6 +1,6 @@
 <configs>
 <append xpath="/item_modifiers">
-<item_modifier name="Admin: Dox Mod" installable_tags="melee" modifier_tags="fire" type="attachment">
+<item_modifier name="Admin: Dox Mod" installable_tags="melee,ranged" modifier_tags="fire" type="attachment">
                 <property name="UnlockedBy" value="modMeleeClubBurningShaftSchematic"/>
 		<property name="UMA.Overlay0Tint" value="255,0,255"/>
 		<property name="CustomIconTint" value="249,145,251"/>
