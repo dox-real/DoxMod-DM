@@ -245,6 +245,20 @@
         <property name="SortOrder1" value="7060"/>
         <property name="SortOrder2" value="0051"/> <!-- SortDoors -->
 </block>
+	
+<block name="DM: Picture Frame Prop">
+        <property name="Extends" value="woodWeakNoUpgradeMaster" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="pictureFrame"/>
+	<property name="CreativeMode" value="Player"/>
+        <property name="FilterTags" value="fdecor,ffurniture"/>
+        <property name="Shape" value="New"/>
+        <property name="Model" value="picture_frame"/>
+        <property name="UseGlobalUV" value="Local"/>
+        <property name="ImposterExclude" value="true"/>
+        <property name="Place" value="TowardsPlacerInverted"/>
+        <drop event="Fall" count="0" prob="0"/>
+</block>
+
 
 
 
