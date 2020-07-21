@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+        <ModInfo>
+                <Name value="DoxMod" />
+                <Description value=
+"
+Includes: 
+4 Seat Custom Jeep - Improved Jeep
+4 Seat Custom Jeep/Admin Weapon - Mekkatorque
+2 Seat Custom Gyrocopter - Improved Gyrocopter
+Admin Weapon - Dox's Actual Hands
+Admin Weapon - Raistlin's Bane
+
+
+Craftables:
+Wire Relay Fusebox
+Treadmill Prop
+Light Source Lantern
+
+"
+ />
+                <Author value="Dox" />
+                <Version value="0.2" />
+                <Website value="mythiotgaming.net" />
+        </ModInfo>
+</xml>
