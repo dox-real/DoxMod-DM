@@ -111,6 +111,16 @@
 			
 			
 		</recipe>
+
+		<recipe name="DM: Hardened Secure Chest" count="1" craft_area="workbench" craft_time="15">
+			
+			<ingredient name="resourceConcreteMix" count="50"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+			<ingredient name="resourceForgedSteel" count="25"/>
+			
+			
+			
+		</recipe>
 		
 		
 		
