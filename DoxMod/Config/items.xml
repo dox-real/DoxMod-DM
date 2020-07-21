@@ -638,7 +638,7 @@ needed?
                 <passive_effect name="StaminaChangeOT" operation="perc_add" value="0" tags="running"/>
                 <display_value name="dStaminaChangeOT" value="0"/>
                 <passive_effect name="NoiseMultiplier" operation="perc_add" value="0"/><display_value name="dNoiseMultiplier" value=".2"/>
-                <passive_effect name="BuffResistance" operation="base_add" value=".135,.167" tags="buffInfectionCatch,buffInjuryBleeding,buffInjuryStunned01"/><passive_effect name="BuffResistance" operation="ba>
+                <passive_effect name="BuffResistance" operation="base_add" value=".135,.167" tags="buffInfectionCatch,buffInjuryBleeding,buffInjuryStunned01"/>
 		<display_value name="dPerception" value="2"/>
                 <display_value name="dEntityDamage" value="4"/>
                 <display_value name="$waterAmountAdd" value="0"/>
