@@ -3,7 +3,7 @@
         <append xpath="/xui/ruleset" >
 		
 
-			<window_group name="workstation_Wood Stove" controller="XUiC_WorkstationWindowGroup">
+			<window_group name="workstation_DM: Wood Stove" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
