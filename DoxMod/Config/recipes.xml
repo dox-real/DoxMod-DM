@@ -122,6 +122,16 @@
 			
 		</recipe>
 		
+		<recipe name="DM: Wood Stove" count="1" craft_time="25">
+			
+			<ingredient name="resourceWood" count="25"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+			
+			
+			
+			
+		</recipe>
+		
 		
 		
 	
