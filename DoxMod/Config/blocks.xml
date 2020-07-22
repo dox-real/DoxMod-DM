@@ -409,6 +409,60 @@
 	<property name="SortOrder1" value="70i0"/>
 </block>
 
+	<block name="Admin: Torch of Doom">
+	<property name="Extends" value="wallTorchLight"/>
+	<property name="CustomIconTint" value="249,145,251"/>
+   	<property name="UMA.Overlay0Tint" value="249,145,251"/>
+   	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="wallTorchLightPlayer"/>
+	<property name="Model" value="Entities/Lighting/torch_wall_playerPrefab"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="wallTorchLight"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="Class" value="TorchHeatMap"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->
+	<property name="HeatMapStrength" value="99999"/>
+	<property name="HeatMapTime" value="480000"/> <!-- 1000 per world hour. str1, t6000, f5 = 2.5; str1, t9000, f5 = 4; str4.05, t12000, f15 = 4.05-8.1; -->
+	<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
+</block>
+
+<block name="Admin: Dirt of Doom">
+	<property name="Extends" value="wallTorchLight"/>
+	<property name="CustomIconTint" value="249,145,251"/>
+   	<property name="UMA.Overlay0Tint" value="249,145,251"/>
+   	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="terrDirt"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="195,570,570,570,570,570"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="LPHardnessScale" value="2"/>
+	<property name="Map.Color" value="20,50,21"/>
+	<property class="RepairItems">
+		<property name="resourceClayLump" value="14"/>
+	</property>
+	<drop event="Harvest" name="resourceClayLump" count="22" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDirt" count="1" prob="0.25" stick_chance="1"/>
+	<drop event="Fall" name="resourceClayLump" count="44" prob="0.187" stick_chance="0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="FilterTags" value="fterrain"/>
+	<property name="SortOrder1" value="d0k0"/>
+	<property name="SortOrder2" value="0050"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="wallTorchLight"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="Class" value="TorchHeatMap"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->
+	<property name="HeatMapStrength" value="99999"/>
+	<property name="HeatMapTime" value="480000"/> <!-- 1000 per world hour. str1, t6000, f5 = 2.5; str1, t9000, f5 = 4; str4.05, t12000, f15 = 4.05-8.1; -->
+	<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
+	<property name="CustomIcon" value="terrForestGround"/>
+</block>
 
 
 
