@@ -463,6 +463,74 @@
 	<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 	<property name="CustomIcon" value="terrForestGround"/>
 </block>
+	
+<block name="DM: Chain Link Fence">
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLink"/>
+	<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="Buildings/chainlink_bottom" param1="main_mesh"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="Texture" value="516"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="70m0"/>
+	<drop event="Fall" count="0" prob="0"/>
+</block>
+	
+<block name="DM: Chain Link Bottom Pole">
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLinkFenceBottomPole"/>
+	<property name="Extends" value="chainLink"/>
+	<property name="Model" value="Buildings/chainlink_bottom_pole" param1="main_mesh"/>
+</block>
+	
+<block name="DM: Chain Link Fence Top">
+	<property name="Extends" value="chainLink"/>
+	<property name="Model" value="Buildings/chainlink_top" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLinkFenceTop"/>
+</block>
+	
+	<block name="DM: Chain Link Top Pole">
+	<property name="Extends" value="chainLink"/>
+	<property name="Model" value="Buildings/chainlink_top_pole" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLinkFenceTopPole"/>
+</block>
+	
+	<block name="DM: Chain Link Top Pole 2">
+	<property name="Extends" value="chainLink"/>
+	<property name="Model" value="Buildings/chainlink_top_pole2" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLinkFenceTopPole2"/>
+</block>
+	
+<block name="DM: Chaink Link Corner Bottom">
+	<property name="Extends" value="chainLink"/>
+	<property name="Model" value="Buildings/chainlink_corner_bottom" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLinkCornerBottom"/>
+</block>
+	
+<block name="DM: Chain Link Corner Top">
+	<property name="Extends" value="chainLink"/>
+	<property name="Model" value="Buildings/chainlink_corner_top" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLinkCornerTop"/>
+</block>
+	
+<block name="DM: Chain Link Pole">
+	<property name="Extends" value="chainLink"/>
+	<property name="Model" value="Buildings/chainlink_pole" param1="main_mesh"/>
+	<property name="Path" value="edge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="chainLinkPole"/>
+</block>
 
 
 
