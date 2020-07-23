@@ -132,6 +132,48 @@
 			
 		</recipe>
 		
+		<recipe name="DM: Chain Link Fence" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		
+		<recipe name="DM: Chain Link Bottom Pole" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		<recipe name="DM: Chain Link Fence Top" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		<recipe name="DM: Chain Link Top Pole" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		<recipe name="DM: Chain Link Top Pole 2" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		<recipe name="DM: Chaink Link Corner Bottom" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		<recipe name="DM: Chain Link Corner Top" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		<recipe name="DM: Chain Link Pole" count="1" craft_time="2">
+			
+			
+			<ingredient name="resourceForgedIron" count="2"/>
+			</recipe>
+		
 		
 		
 	
