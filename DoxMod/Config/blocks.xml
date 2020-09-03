@@ -565,6 +565,27 @@
 	<property name="FilterTags" value="fdecor,fsigns,fother"/>
 	<property name="SortOrder1" value="70s0"/>
 </block>
+	
+<block name="DM: Wood Desk">
+        <property name="Extends" value="cntWoodDesk01Open"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Model" value="Furniture/desk01" param1="main_mesh"/>
+        <property name="Class" value="Loot"/>
+        <property name="LootList" value="42"/>
+</block>
+	
+<block name="DM: Metal Desk">
+        <property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="CustomIconTint,DisplayInfo"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Class" value="Loot"/>
+        <property name="LootList" value="24"/>
+        <property name="CustomIcon" value="cntMetalDesk02RandomLootHelper"/>
+        <property name="DisplayType" value="blockMulti"/>
+        <property name="MultiBlockDim" value="2,1,1"/>
+        <property name="DescriptionKey" value="furnitureGroupDesc"/>
+        <property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
 
 
 
