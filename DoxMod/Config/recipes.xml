@@ -141,6 +141,26 @@
 			<ingredient name="resourceForgedIron" count="2"/>
 			</recipe>
 		
+		<recipe name="DM: Wood Desk" count="1" craft_time="25">
+			
+			<ingredient name="resourceWood" count="125"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+			
+			
+			
+			
+		</recipe>
+		
+		<recipe name="DM: Metal Desk" count="1" craft_time="45">
+			
+			<ingredient name="resourceWood" count="25"/>
+			<ingredient name="resourceForgedIron" count="35"/>
+			
+			
+			
+			
+		</recipe>
+		
 		
 		
 	
